@@ -75,7 +75,7 @@ public class PreLoadingView extends FrameLayout {
                     preLoadingAttributes.setPlaceHolderTwoRadius(Utils.dpToPx(typedArray.getInteger(R.styleable.PreLoading_plv_holderTwoCornerRadius, Constants.DEFAULT_PLACEHOLDER_TWO_RADIUS)));
                     preLoadingAttributes.setPlaceHolderOneElevation(Utils.dpToPx(typedArray.getInteger(R.styleable.PreLoading_plv_holderOneElevation, Constants.DEFAULT_PLACEHOLDER_ONE_ELEVATION)));
                     preLoadingAttributes.setPlaceHolderTwoElevation(Utils.dpToPx(typedArray.getInteger(R.styleable.PreLoading_plv_holderTwoElevation, Constants.DEFAULT_PLACEHOLDER_TWO_ELEVATION)));
-                    preLoadingAttributes.setIsHolderOneVisible(typedArray.getInteger(R.styleable.PreLoading_plv_isHolderOneVisible, View.VISIBLE));
+                    preLoadingAttributes.setIsHolderOneVisible(typedArray.getInteger(R.styleable.PreLoading_plv_holderOneVisibility, View.VISIBLE));
                     defaultTransition = typedArray.getInt(R.styleable.PreLoading_plv_defaultAnimation, 1);
                     detectTransition(); //Detect Transition File
 

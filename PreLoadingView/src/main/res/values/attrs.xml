@@ -17,7 +17,7 @@
             <enum name="grid" value="1" />
         </attr>
 
-        <attr name="plv_isHolderOneVisible">
+        <attr name="plv_holderOneVisibility">
             <enum name="visible" value="0" />
             <enum name="invisible" value="4" />
             <enum name="gone" value="8" />
