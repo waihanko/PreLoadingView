@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PreLoading">
+        <attr name="plv_isHolderTwoDimenDynamic" format="boolean" />
+
+        <attr name="plv_animationDuration" format="integer" />
+        <attr name="plv_listItemCount" format="integer" />
+
+        <attr name="plv_holderOneColor" format="color" />
+        <attr name="plv_holderTwoColor" format="color" />
+        <attr name="plv_holderOneCornerRadius" format="integer" />
+        <attr name="plv_holderTwoCornerRadius" format="integer" />
+        <attr name="plv_holderOneElevation" format="integer" />
+        <attr name="plv_holderTwoElevation" format="integer" />
+        <attr name="plv_layoutType" format="integer">
+            <enum name="list" value="0" />
+            <enum name="grid" value="1" />
+        </attr>
+
+        <attr name="plv_isHolderOneVisible">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="4" />
+            <enum name="gone" value="8" />
+        </attr>
+
+        <attr name="plv_defaultAnimation" format="integer">
+            <enum name="none" value="0" />
+            <enum name="simple" value="1" />
+            <enum name="down_to_up" value="2" />
+            <enum name="up_to_down" value="3" />
+            <enum name="left_to_right" value="4" />
+            <enum name="right_to_left" value="5" />
+            <enum name="fade_out" value="6" />
+        </attr>
+
+        <!--  To Do, Thanks for your contribution -->
+        <!--        <attr name="plv_holderOneWidth" format="integer" />-->
+        <!--        <attr name="plv_holderOneWidth" format="integer" />-->
+        <!--        <attr name="plv_holderTwoWidth" format="integer" />-->
+        <!--        <attr name="plv_holderTwoHeight" format="integer" />-->
+        <!--        <attr name="plv_ItemMargin" format="integer" />-->
+        <!--        <attr name="plv_ItemChild" format="integer" />-->
+
+        <!--        <attr name="plv_holderOneGravity" format="integer">-->
+        <!--            <enum name="top" value="1" />-->
+        <!--            <enum name="center" value="2" />-->
+        <!--            <enum name="bottom" value="3" />-->
+        <!--        </attr>-->
+        <!--        <attr name="plv_holderTwoGravity" format="integer">-->
+        <!--            <enum name="top" value="1" />-->
+        <!--            <enum name="center" value="2" />-->
+        <!--            <enum name="bottom" value="3" />-->
+        <!--        </attr>-->
+
+    </declare-styleable>
+</resources>
