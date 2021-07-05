@@ -1,5 +1,5 @@
 # Pre Loading View
- ###### This is ui library like facebook comment pre loading. But You can customize with attributes.
+ ###### This is ui library like facebook comment pre loading. You can customize with attributes.
 
  &nbsp;
  &nbsp;
